@@ -48,10 +48,28 @@
     transform: translate3d(0px, 0px, 0px);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .media-detect {
-        width:400px;
+        width:399px;
         display: flow-root !important;
+        margin-left: 10%;
+    }
+}
+
+.product-image{
+    display: block;
+    min-height: 680px;
+    max-width: 100%;
+    background: url(products.jpeg);
+}
+
+
+@media only screen and (max-width: 450px) {
+    .product-image{
+        display: block;
+        min-height: 1520px;
+        max-width: 100%;
+        background: url(products-vertical.jpeg)  no-repeat !important;
     }
 }
 
