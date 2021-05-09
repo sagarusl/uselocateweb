@@ -58,9 +58,9 @@
 
 .product-image{
     display: block;
-    min-height: 680px;
+    min-height: 538px;
     max-width: 100%;
-    background: url(products.jpeg);
+    background: url(products.jpeg) no-repeat;
 }
 
 
